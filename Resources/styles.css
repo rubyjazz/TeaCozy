@@ -20,9 +20,24 @@ header li {
   display: inline;
   float: right;
   text-align: center;
+  margin: 20px;
+  text-decoration: underline;
 }
 header img {
   height: 50px;
   float: left;
   margin: 10px;
+}
+#hero-image {
+  /*display: flex*/
+  margin-top: 70px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+}
+#hero-image h2 {
+
 }
