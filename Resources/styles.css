@@ -64,3 +64,11 @@ header img {
   height: 200px;
   width: 300px;
 }
+#location {
+  background-image: url(images/img-locations-background.jpg);
+  height: 700px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+}
