@@ -67,17 +67,25 @@ header img {
 #location {
   background-image: url(images/img-locations-background.jpg);
   height: 700px;
-  align-items: center;
+  display: block;
   background-repeat: no-repeat;
   background-position: center;
+
+}
+
+.flex-box {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
 }
 .locations {
-  opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
   background-color: black;
-  flex-basis: 280px;
-  display: flex;
+  flex-basis: 300px;
   flex-direction: column;
-  justify-content: center;
+}
+
+#copyright {
+  float: left;
 }
