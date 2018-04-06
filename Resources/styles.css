@@ -84,7 +84,7 @@ header img {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  
+
 }
 
 .flex-box {
@@ -105,5 +105,5 @@ header img {
 }
 #copyright {
   float: left;
-  margin-left: 20px;
+  margin: 20px;
 }
